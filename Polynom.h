@@ -30,5 +30,6 @@ Polynom minus_p(const int * c1,const int * c2,int deg1, int deg2);
 Polynom sum_p(const int * c1,const int * c2,int deg1, int deg2);
 Polynom init_Pol();
 int read_int(const char* message);
+Polynom summator(const Polynom* p, int count);
 
 #endif
