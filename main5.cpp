@@ -6,7 +6,7 @@ int main(){
 	for(int i = 0; i < count;i++){
 		p[i]= init_Pol();
 	}
-	Polinom res = summator(p);
+	Polynom res = summator(p,count);
 	res.show();
 
 	return 0;
