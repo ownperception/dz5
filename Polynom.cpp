@@ -123,7 +123,8 @@ Polynom sum_p(const int * c1,const int * c2,int deg1, int deg2)
 	for(;i < deg1 + 1;i++){
 		c[i] = c1[i];
 	}
-	return Polynom(deg1,c);
+	Polynom res(deg1,c);
+	return res;
 }
 
 
@@ -137,7 +138,8 @@ Polynom minus_p(const int * c1,const int * c2,int deg1, int deg2)
 	for(;i < deg1 + 1;i++){
 		c[i] = c1[i];
 	}
-	return Polynom(deg1,c);
+	Polynom res(deg1,c);
+	return res;
 }
 
 
