@@ -174,3 +174,10 @@ int read_int(const char* message){
 	return c;
 }
 
+Polynom summator(const Polynom* p, int count){
+	Polynom res;
+	for(int i = 0; i < count; i++){
+		res = res + p[i];
+	}
+	return res;
+}
