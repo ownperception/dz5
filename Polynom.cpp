@@ -1,4 +1,4 @@
-#include"Polynom_new.h"
+#include"Polynom.h"
 using namespace std;
 
 
